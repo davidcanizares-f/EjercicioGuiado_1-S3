@@ -8,7 +8,7 @@ public class Dispositivo {
 
     public void setNombre(String nombre) {
         if (nombre == null || nombre.isBlank()) {
-            nombre = "[!] Nombre Vacío (llenar)";
+            nombre = "s/n";
         }
         this.nombre = nombre;
     }
@@ -19,7 +19,7 @@ public class Dispositivo {
 
     public void setTipo(String tipo) {
         if (tipo == null || tipo.isBlank()) {
-            tipo = "[!] Tipo Vacío (llenar)";
+            tipo = "s/n";
         }
         this.tipo = tipo;
     }
