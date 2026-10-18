@@ -60,6 +60,7 @@ public class Dispositivo {
 }
 
 
+
     /*public void mostrarInformacion() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Tipo: " + tipo);
